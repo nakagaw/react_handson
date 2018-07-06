@@ -12,10 +12,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           { loader: "style-loader" },
-          { loader: "css-loader?modules" }
+          { loader: "css-loader?modules&localIdentName=[folder]-[emoji]-[local]-[hash:base64:5]" },
+          { loader: "sass-loader" }
         ]
       },
       {
@@ -29,4 +30,4 @@ module.exports = {
       '.ts', '.tsx', ".js", ".json"
     ]
   }
-};
+}

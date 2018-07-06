@@ -1,11 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import Title from "./Title";
+import Title from "./index";
 
 describe("Title component test.", () => {
   beforeEach(done => {
     ReactDOM.render(
-      <Title />,
+      <Title>Hello world</Title>,
       document.body,
       done
     );
@@ -13,7 +13,6 @@ describe("Title component test.", () => {
 
   it("should render correctly.", () => {
     const title = document.querySelector("h1");
-    expect(title.textContent).toBe("HelloWorld");
     expect(title.className).toBe("title");
   });
 });

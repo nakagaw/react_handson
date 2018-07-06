@@ -1,9 +1,8 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
-import Title from "./components/atoms/Title";
-import "./index.css";
+import { render } from "react-dom";
+import Root from "./components/Root";
 
-ReactDOM.render(
-  <Title />,
-  document.body
+render(
+    (<Root/>),
+    document.querySelector('#app')
 );

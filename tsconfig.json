@@ -4,9 +4,22 @@
     "baseUrl": "./src",
     "module": "commonjs",
     "jsx": "react",
-    "lib": [
-      "es2017",
-      "dom"
-    ]
-  }
+    "allowJs": false,
+    "moduleResolution": "node",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "noUnusedLocals" : true,
+    "noImplicitThis": true,
+    // "noImplicitAny": true,
+    "alwaysStrict": true,
+    // "strictNullChecks": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+//     "declaration": true,
+//     "suppressImplicitAnyIndexErrors": true,
+//     "experimentalDecorators": true
+//     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "scripts"]
 }
