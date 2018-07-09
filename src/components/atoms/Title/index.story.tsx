@@ -7,5 +7,6 @@ const stories = storiesOf("Components", module);
 
 stories.add(
   "Title 1",
-  withInfo({ inline: true })(() => <Title>Hello world</Title>)
+  withInfo({ inline: true })(() =>
+  <Title>Hello world</Title>)
 );
