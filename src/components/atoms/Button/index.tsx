@@ -3,10 +3,11 @@ import * as React from "react";
 interface ButtonProps {
   /** Buttons background color */
   color: "blue" | "green";
+  onClick?: React.EventHandler<any>;
 }
 
 /** A button with a configurable background color. */
-export const Button: React.SFC<ButtonProps> = props => (
+const Button: React.SFC<ButtonProps> = props => (
   <button
     style={{
       padding: 40,
@@ -15,6 +16,7 @@ export const Button: React.SFC<ButtonProps> = props => (
       fontSize: "2rem",
       borderRadius: "10px"
     }}
+    onClick={props.onClick}
   >
     {props.children}
   </button>
