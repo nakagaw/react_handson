@@ -19,7 +19,10 @@ $npm run build-storybook
 - webpack@^4.15.1
 - @storybook/* @v4.0.0-alpha.10
 
-## Reference
+## Reference to make the environment
 - https://qiita.com/m0a/items/4ebb05cdcaebbd39601d
 - https://storybook.js.org/configurations/custom-webpack-config/
 - http://www.joshschreuder.me/react-storybooks-with-typescript/
+
+## Reference of component-based development
+- https://tech.decisiv.com/structuring-our-styled-components-part-i-2bf21fa64b28
