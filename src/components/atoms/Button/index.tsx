@@ -23,13 +23,3 @@ const Button: React.SFC<ButtonProps> = props => (
 );
 
 export default Button;
-
-
-// 古い
-// import * as React from "react";
-// const styles = require("./styles.scss");
-
-// const Button = ({ children, className, ...props }) =>
-//   <button className={ [ styles.button, className ].join(' ') } { ...props }>{children}</button>
-
-// export default Button;

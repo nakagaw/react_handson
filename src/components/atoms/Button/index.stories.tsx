@@ -4,7 +4,7 @@ import { withInfo } from "@storybook/addon-info";
 import { action } from '@storybook/addon-actions';
 import Button from "./index";
 
-const stories = storiesOf("Atoms/Button", module);
+const stories = storiesOf("Atoms / Button", module);
 
 stories
   .add("Blue", withInfo({ inline: true })(() =>

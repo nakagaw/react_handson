@@ -2,6 +2,18 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name]_[hash].[ext]',
+              outputPath: 'images/'
+            }
+          }
+        ]
+      },
+      {
         test: /\.scss$/,
         use: [
           { loader: "style-loader" },

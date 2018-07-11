@@ -27,6 +27,7 @@
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
     "jest": "^22.4.4",
     "jest-css-modules": "^1.1.0",
     "node-sass": "^4.9.0",
