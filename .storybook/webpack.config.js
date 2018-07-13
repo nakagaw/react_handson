@@ -28,7 +28,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: [ // 拡張子なしでも import できる
+    extensions: [ // no need .[ext] for import
       '.ts', '.tsx', ".js", ".json"
     ]
   }

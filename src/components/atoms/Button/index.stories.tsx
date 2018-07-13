@@ -11,5 +11,5 @@ stories
     <Button color="blue" onClick={action('clicked')}>Button</Button>
   ))
   .add("Green", withInfo({ inline: true })(() =>
-      <Button color="green" onClick={action('clicked')}>Button</Button>
+    <Button color="green" onClick={action('clicked')}>Button</Button>
   ));

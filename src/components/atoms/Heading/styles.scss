@@ -1,0 +1,20 @@
+.heading {
+  font-weight: bold;
+  line-height: 1.5;
+
+  &.lv1 {
+    color: red;
+    font-size: 4em;
+  }
+  &.lv2 {
+    color: green;
+    font-size: 3em;
+  }
+  &.lv3 {
+    color: blue;
+    font-size: 2em;
+  }
+}
+
+
+

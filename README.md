@@ -11,6 +11,12 @@ $npm run storybook
 $npm run build-storybook
 ```
 
+jest
+* for now, not working (same issue: https://github.com/facebook/jest/issues/4604)
+```
+$npm run test
+```
+
 ## There are must keep versions below:
 - ts-loader@v3.5.0 => storybook is OK, but ts compile is not working
 - ts-loader@v4.4.2 => ts compile is OK, but storybook is not working

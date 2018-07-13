@@ -7,8 +7,11 @@ const stories = storiesOf("Atoms / Balloon", module);
 
 stories
   .add("Default", withInfo({ inline: true })(() =>
-      <Balloon>削除する</Balloon>
+      <Balloon>Delete</Balloon>
   ))
-  .add("Free Layout", withInfo({ inline: true })(() =>
-      <Balloon style={{ position: "absolute", top: "0", left: "0"}}>削除する</Balloon>
+  .add("Free Layout", withInfo({
+    text: "You can add layout style by inline css.",
+    inline: true
+    })(() =>
+      <Balloon style={{ position: "absolute", top: "0", left: "0"}}>position: absolute;</Balloon>
   ));
